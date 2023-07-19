@@ -1,0 +1,47 @@
+/* Set Sketcher height and width*/
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 167, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+.header, .footer {
+    flex: 1;
+    justify-content: center;
+}
+
+
+.sketcher {
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixel {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+}
+
+/*Set flex direciton of container(class = row)*/
+div.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: blue;
+}
+
+/*Set height and width of cells*/
+div.column {
+    height: 2.5rem;
+    width: 2.5rem;
+    flex: 1;
+    background-color: white
+}
+
