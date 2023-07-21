@@ -12,7 +12,7 @@ function numPixels() {
         return numPix;
     }
     else {
-        numPixels();
+        return numPixels();
     }  
 }
 
